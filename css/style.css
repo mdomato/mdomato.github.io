@@ -1,0 +1,127 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  background: white;
+  color: white;
+  overflow: hidden;
+  background: url("../img/ubuntu2.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#terminal {
+  position: absolute;
+  width: 750px;
+  height: 400px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 120px;
+  margin: auto;
+  /*margin-top: 225px; /*50px*/
+  /*margin-left: 550px; /*250px*/
+  background-image: url("../img/bg_trans.png");
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+}
+#handle {
+  width: 750px;
+  height: 30px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: rgb(104, 103, 101);
+  background: -moz-linear-gradient(
+    top,
+    rgba(104, 103, 101, 1) 0%,
+    rgba(60, 59, 55, 1) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, rgba(104, 103, 101, 1)),
+    color-stop(100%, rgba(60, 59, 55, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(104, 103, 101, 1) 0%,
+    rgba(60, 59, 55, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(104, 103, 101, 1) 0%,
+    rgba(60, 59, 55, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(104, 103, 101, 1) 0%,
+    rgba(60, 59, 55, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(104, 103, 101, 1) 0%,
+    rgba(60, 59, 55, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#686765', endColorstr='#3c3b37',GradientType=0 );
+}
+#handle p {
+  line-height: 30px;
+  color: #dfdbd2;
+  padding-left: 15px;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+p,
+span {
+  margin-top: 1px;
+}
+.terminal {
+  padding-left: 5px;
+  padding-top: 2px;
+  height: 365px;
+  overflow: auto;
+}
+.info p,
+.terminal {
+  display: none;
+  word-wrap: break-word;
+  font-size: 0.9em;
+}
+.comando::before {
+  color: #00ff00;
+  content: "$ ";
+}
+input {
+  border: none;
+  outline: none;
+  width: 1px;
+  background: transparent;
+  color: transparent;
+}
+.blink {
+  width: 5px;
+  height: 13px;
+  display: inline-block;
+  background-color: white;
+}
+
+#footer {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding: 1px;
+}
+
+#footer .container .icons > li {
+  display: inline-block;
+  padding-inline: 10px;
+}
