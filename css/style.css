@@ -1,4 +1,7 @@
-@import url(//fonts.googleapis.com/css?family=Ubuntu:400,500);
+@font-face {
+  font-family: "Ubuntu", sans-serif;
+  src: url("//fonts.googleapis.com/css?family=Ubuntu:400,500");
+}
 
 body {
   font-family: "Ubuntu", sans-serif;
