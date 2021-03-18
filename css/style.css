@@ -1,9 +1,7 @@
-@font-face {
-  font-family: "Ubuntu", sans-serif;
-  src: url("//fonts.googleapis.com/css?family=Ubuntu:400,500");
-}
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500");
 
 body {
+  font-family: "Ubuntu";
   background: white;
   color: white;
   overflow: hidden;
