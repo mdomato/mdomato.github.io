@@ -6,6 +6,7 @@ var cases = [
   "skills",
   "cv",
   "github",
+  
 ]; // Casos
 var comando = {
   1: "Comandos disponibles:<br>clear<br>help<br>about me<br>studies<br>skills<br>cv<br>github",
