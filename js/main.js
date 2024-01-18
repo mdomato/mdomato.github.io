@@ -31,7 +31,7 @@ $(document).ready(function () {
         $("#respuesta").append(
           '<p class="respuesta">Comando "' +
             valor +
-            '" no identificado.<br />Para ver lista de comandos, escribe: help</p>'
+            '" no identificado.<br />Para ver lista de comandos, escribe: ayuda</p>'
         );
       } else {
         terminal(caso); // Si existe regresa 1..oo, ejecutamos función terminal
